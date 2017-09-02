@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9dee5"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="198dp"
+        android:layout_height="175dp"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:text="Gerçekle"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:background="#9d9090"
+        android:layout_marginRight="5dp"
+        android:id="@+id/implementARbtn"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/lesson_infoTxt" />
+
+    <Button
+        android:text="soru çöz"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionBtn"
+        android:background="#9d9090"
+        android:layout_marginEnd="12dp"
+        android:layout_alignBaseline="@+id/implementARbtn"
+        android:layout_alignBottom="@+id/implementARbtn"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="303dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:text="Konu Başlığı"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/editText2"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/lesson_infoTxt" />
+
+    <TextView
+        android:scrollbars="vertical"
+        android:scrollbarSize="10dp"
+        android:fadeScrollbars="false"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="İçerik"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="14sp"
+        android:id="@+id/lesson_infoTxt"
+        android:layout_alignBottom="@+id/implementARbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp" />
+</RelativeLayout>

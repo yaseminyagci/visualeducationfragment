@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:weightSum="1"
+    android:background="#ffffff"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/images"
+            android:layout_marginTop="51dp"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginStart="43dp" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:textColor="#4c0303"
+    android:text="Yenilikçi"
+    android:layout_marginTop="24dp"
+    android:layout_below="@+id/imageView2"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/textView2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:text="Yepyeni bir teknoloji ile eğitime\n ışık tutarız."
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView3" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

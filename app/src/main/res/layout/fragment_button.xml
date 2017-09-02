@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginTop="540dp"
+    android:background="#e44040">
+<Button
+    android:layout_width="130dp"
+    android:layout_height="50dp"
+    android:text="Sing up"
+    android:id="@+id/buton1"
+    android:onClick="KayiOl"
+    android:layout_alignBaseline="@+id/buton2"
+    android:layout_alignBottom="@+id/buton2"
+    android:layout_toEndOf="@+id/buton2"
+    android:layout_marginStart="32dp" />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:id="@+id/buton2"
+        android:text="Log in"
+        android:onClick="Giris"
+        android:layout_marginStart="39dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
